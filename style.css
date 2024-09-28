@@ -1,0 +1,28 @@
+body {
+    background-color: #33A1FF;
+    color: #003366;
+    font-family: "Bai Jamjuree", POPPINS;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #5BC0EB;
+    color: #003366;
+    font-family: "Bai Jamjuree", POPPINS;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
